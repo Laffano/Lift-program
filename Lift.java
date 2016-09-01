@@ -37,10 +37,11 @@ public class Lift
     public void descend()
     {
         if (liftLocation == minFloor){
-            System.out.println ("");
+            System.out.println ("You are unable to go down any further, please go up");
         }
         else{
             liftLocation=liftLocation-1;
         }
     }
+    
 }
